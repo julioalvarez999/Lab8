@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import SearchBar from './components/SearchBar'
 import GifGrid from './components/GifGrid'
 
-const API_KEY = '8jVSO9wKED6kPlcw6jnvI9kxcgQfZo2b'
+const API_KEY = 'yUqaAS1WRouTSRMkyfORooU5iRJYlY'
 
 const CATEGORIAS_INICIALES = ['dragon ball', 'valorant', 'One punch']
 
