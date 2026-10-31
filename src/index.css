@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e9eaec;
+  color: #1f2328;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 16px 40px;
+}
+
+h1 {
+  margin: 4px 0 14px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.buscador {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  color: inherit;
+  background: #fff;
+  border: 1px solid #b8bec6;
+  border-radius: 4px;
+}
+
+.buscador:focus {
+  outline: 2px solid #2f6fed;
+  outline-offset: 1px;
+}
+
+.seccion {
+  margin-top: 30px;
+}
+
+.seccion-titulo {
+  margin: 0 0 16px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2f6fed;
+}
+
+.gifs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.gif-card {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.gif-card-imagen {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  background: #d7d9dc;
+}
+
+.gif-card-titulo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 8px;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.estado {
+  margin: 24px 0;
+  color: #4a5158;
+  text-align: center;
+}
+
+.estado-error {
+  color: #b42318;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 8px 12px 32px;
+  }
+
+  .seccion-titulo {
+    font-size: 22px;
+  }
+
+  .gif-card {
+    width: 150px;
+  }
+
+  .gif-card-imagen {
+    height: 125px;
+  }
+}
